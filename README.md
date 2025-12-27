@@ -48,7 +48,7 @@ The **Attendance Tracker** is a tool that automates the tracking of course-wise 
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 **Language**
 - C++
@@ -72,4 +72,4 @@ The **Attendance Tracker** is a tool that automates the tracking of course-wise 
 ---
 
 ## Author
--Pranith Reddy Donthireddy
+- Pranith Reddy Donthireddy
