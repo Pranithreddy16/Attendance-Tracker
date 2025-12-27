@@ -5,7 +5,7 @@ A command-line application designed to help students to track their academic att
 ---
 
 ## Overview
-The **Attendance Tracker** is a tool that automates the tracking of course-wise attendance. It calculates real-time percentages and determines if a student meets the mandatory **75% eligibility criteria**. Beyond simple tracking, it provides a "Predictor" tool that tells students exactly how many more classes they need to attend to stay in the "Safe" zone.
+The **Attendance Tracker** is a tool that keeps the tracking of course-wise attendance. It calculates real-time percentages and determines if a student meets the mandatory **75% eligibility criteria**. Beyond simple tracking, it provides a "Predictor" tool that tells students exactly how many more classes they need to attend to stay in the "Safe" zone.
 
 ---
 
@@ -42,9 +42,9 @@ The **Attendance Tracker** is a tool that automates the tracking of course-wise 
 ---
 
 ## Applications
-* **Student Productivity:** Helps students avoid being debarred from exams due to low attendance.
-* **Academic Planning:** Assists in deciding which classes can be skipped or require mandatory attendance.
-* **Education:** Serves as a practical example of CRUD operations and file persistence in C++.
+* **Student Planning:** Helps students avoid being debarred from exams due to low attendance.
+* **Academic Strategy:** Assists in deciding which classes can be skipped or require mandatory attendance.
+* **Educational resource:** Serves as a practical example of CRUD operations and file persistence in C++.
 
 ---
 
