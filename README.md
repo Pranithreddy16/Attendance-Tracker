@@ -24,7 +24,7 @@ The **Attendance Tracker** is a tool that automates the tracking of course-wise 
 1.  **Load:** On startup, the system reads existing data from `attendance.txt`.
 2.  **Input:** The user interacts with a menu to add, modify, or remove course data.
 3.  **Process:** The system calculates percentages and categorizes status (Safe/Warning/Critical).
-4.  **Forecast:** Users can predict future attendance by simulating upcoming classes.
+4.  **Prediction:** Users can predict future attendance by simulating upcoming classes.
 5.  **Save:** Upon exiting, all updates are written back to the data file.
 
 ---
@@ -35,17 +35,41 @@ The **Attendance Tracker** is a tool that automates the tracking of course-wise 
     * **SAFE:** $\geq$ 75%
     * **WARNING:** 65% – 74%
     * **CRITICAL:** < 65%
-* **Eligibility Predictor:** Calculates the specific number of consecutive classes required to reach the 75% goal.
+* **Eligibility Prediction:** Calculates the specific number of consecutive classes required to reach the 75% goal.
 * **Semester Summary:** Provides an overall average across all registered courses.
-* **Persistent Storage:** Automatically saves your progress so you never lose your data.
+* **Storage:** Automatically saves your progress so you never lose your data.
 
 ---
 
 ## Applications
 * **Student Productivity:** Helps students avoid being debarred from exams due to low attendance.
 * **Academic Planning:** Assists in deciding which classes can be skipped or require mandatory attendance.
-* **Educational Foundation:** Serves as a practical example of CRUD operations and file persistence in C++.
+* **Education:** Serves as a practical example of CRUD operations and file persistence in C++.
 
 ---
 
+## 🛠 Tech Stack
 
+**Language**
+- C++
+
+**Core Concepts**
+- Structs (`Course`)
+- Vectors (`std::vector`)
+- File I/O (`ifstream`, `ofstream`)
+- Basic math and rounding (`ceil`)
+- Console-based menus and user interaction
+
+**Standard Libraries Used**
+- `<iostream>`
+- `<vector>`
+- `<cmath>`
+- `<fstream>`
+
+**Interface**
+- Text-based, menu-driven, runs in the terminal.
+
+---
+
+## Author
+-Pranith Reddy Donthireddy
