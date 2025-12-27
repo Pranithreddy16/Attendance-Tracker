@@ -10,10 +10,10 @@ The **Attendance Tracker** is a tool that automates the tracking of course-wise 
 ---
 
 ## Core Concepts Used
-* **Data Structures:** Utilizes `struct` to organize course attributes .
-* **File Handling:** Implements `fstream` for persistent data storage in `attendance.txt`.
-* **Algorithmic Logic:** Uses mathematical formulas to calculate the minimum classes required to reach the 75% threshold.
-* **Input Validation:** Ensures data integrity by preventing illogical entries (e.g., attending more classes than conducted).
+* **Data Structures:** Utilizes `struct` to organize courses.
+* **File Handling:** Implements `fstream` for data storage in `attendance.txt`.
+* **Algorithmic Logic:** Uses mathematical formulas to calculate the minimum classes required to reach the 75% .
+* **Input Validation:** Ensures data integrity by preventing illogical entries (eg: attending more classes than conducted).
 
 ---
 
@@ -21,7 +21,7 @@ The **Attendance Tracker** is a tool that automates the tracking of course-wise 
 
 
 
-1.  **Load:** On startup, the system reads existing data from `attendance.txt`.
+1.  **Load:** On start, the system reads existing data from `attendance.txt`.
 2.  **Input:** The user interacts with a menu to add, modify, or remove course data.
 3.  **Process:** The system calculates percentages and categorizes status (Safe/Warning/Critical).
 4.  **Prediction:** Users can predict future attendance by simulating upcoming classes.
