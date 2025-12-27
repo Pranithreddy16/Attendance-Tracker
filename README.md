@@ -1,6 +1,6 @@
 # Attendance Tracker
 
-A lightweight command-line application designed to help students track their academic attendance, monitor eligibility status, and predict future attendance requirements.
+A command-line application designed to help students to track their academic attendance, moniter their eligibility status, and predict future attendance requirements.
 
 ---
 
@@ -72,4 +72,4 @@ The **Attendance Tracker** is a tool that automates the tracking of course-wise 
 ---
 
 ## Author
-- Pranith Reddy Donthireddy
+Pranith Reddy Donthireddy
